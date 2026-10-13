@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>উদয়ন মাধ্যমিক বিদ্যালয় স্কাউট গ্রুপ</title>
+    <!-- Tailwind CSS CDN for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header & Navigation -->
+    <header class="bg-emerald-700 text-shadow shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-white p-2 rounded-full text-emerald-700 font-bold text-xl">
+                    <i class="fa-solid fa-tent"></i>
+                </div>
+                <div>
+                    <h1 class="text-white font-bold text-lg md:text-xl">উদয়ন মাধ্যমিক বিদ্যালয় স্কাউট গ্রুপ</h1>
+                    <p class="text-emerald-200 text-xs">Udayan Secondary School Scout Group</p>
+                </div>
+            </div>
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex space-x-6 text-white font-medium">
+                <a href="index.html" class="hover:text-emerald-200 transition border-b-2 border-white pb-1">হোম</a>
+                <a href="#about" class="hover:text-emerald-200 transition">আমাদের সম্পর্কে</a>
+                <a href="#leadership" class="hover:text-emerald-200 transition">নেতৃত্ববৃন্দ</a>
+                <a href="#activities" class="hover:text-emerald-200 transition">কার্যক্রম</a>
+                <a href="certificate.html" class="hover:text-emerald-200 transition bg-emerald-800 px-3 py-1 rounded">সার্টিফিকেশন</a>
+                <a href="#contact" class="hover:text-emerald-200 transition">যোগাযোগ</a>
+            </nav>
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-white focus:outline-none text-2xl">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-emerald-800 px-4 pt-2 pb-4 space-y-2">
+            <a href="index.html" class="block text-white py-1">হোম</a>
+            <a href="#about" class="block text-white py-1">আমাদের সম্পর্কে</a>
+            <a href="#leadership" class="block text-white py-1">নেতৃত্ববৃন্দ</a>
+            <a href="#activities" class="block text-white py-1">কার্যক্রম</a>
+            <a href="certificate.html" class="block text-white py-1 bg-emerald-700 rounded px-2">সার্টিফিকেশন</a>
+            <a href="#contact" class="block text-white py-1">যোগাযোগ</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-emerald-600 to-teal-700 text-white py-20 text-center px-4">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">সেবা ও সততার দীক্ষায় গড়ি সুন্দর ভবিষ্যৎ</h2>
+            <p class="text-emerald-100 text-base md:text-lg mb-8">উদয়ন মাধ্যমিক বিদ্যালয় স্কাউট গ্রুপ - যুবসমাজকে দেশের যোগ্য নাগরিক ও দেশপ্রেমে উদ্বুদ্ধ করতে প্রতিশ্রুতিবদ্ধ।</p>
+            <div class="flex justify-center space-x-4">
+                <a href="certificate.html" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold px-6 py-3 rounded-lg shadow transition">সার্টিফিকেট যাচাই করুন</a>
+                <a href="#activities" class="bg-transparent hover:bg-white hover:text-emerald-800 border-2 border-white font-bold px-6 py-3 rounded-lg transition">আমাদের ক্যাম্পসমূহ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="py-16 container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h3 class="text-2xl md:text-3xl font-bold text-emerald-800 mb-2">গ্রুপ নেতৃত্ববৃন্দ</h3>
+            <p class="text-gray-600">যাঁদের সুদক্ষ নির্দেশনায় পরিচালিত হয় আমাদের স্কাউট কার্যক্রম</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- President -->
+            <div class="bg-white p-6 rounded-xl shadow-md text-center border-t-4 border-emerald-600">
+                <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center text-gray-400 text-3xl">
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <h4 class="font-bold text-lg text-gray-800">প্রধান শিক্ষক মহোদয়</h4>
+                <p class="text-emerald-600 font-medium text-sm mb-2">গ্রুপ প্রেসিডেন্ট</p>
+                <p class="text-gray-500 text-xs">উদয়ন মাধ্যমিক বিদ্যালয় স্কাউট গ্রুপ</p>
+            </div>
+
+            <!-- Group Scout Leader -->
+            <div class="bg-white p-6 rounded-xl shadow-md text-center border-t-4 border-emerald-600">
+                <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center text-gray-400 text-3xl">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <h4 class="font-bold text-lg text-gray-800">রিন্টু লিন্টু আন্দ্রিয় হালদার</h4>
+                <p class="text-emerald-600 font-medium text-sm mb-2">গ্রুপ স্কাউট লিডার (GSL)</p>
+                <p class="text-gray-500 text-xs">উদয়ন মাধ্যমিক বিদ্যালয় স্কাউট গ্রুপ</p>
+            </div>
+
+            <!-- Scout Unit Leader -->
+            <div class="bg-white p-6 rounded-xl shadow-md text-center border-t-4 border-emerald-600">
+                <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center text-gray-400 text-3xl">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <h4 class="font-bold text-lg text-gray-800">গাজী মাজহারুল আনোয়ার</h4>
+                <p class="text-emerald-600 font-medium text-sm mb-2">স্কাউট শাখা ইউনিট লিডার</p>
+                <p class="text-gray-500 text-xs">উদয়ন মাধ্যমিক বিদ্যালয় স্কাউট গ্রুপ</p>
+            </div>
+
+            <!-- Cub Unit Leader -->
+            <div class="bg-white p-6 rounded-xl shadow-md text-center border-t-4 border-emerald-600">
+                <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center text-gray-400 text-3xl">
+                    <i class="fa-solid fa-user-nurse"></i>
+                </div>
+                <h4 class="font-bold text-lg text-gray-800">সম্মানিত ম্যাম</h4>
+                <p class="text-emerald-600 font-medium text-sm mb-2">কাপ শাখা ইউনিট লিডার</p>
+                <p class="text-gray-500 text-xs">উদয়ন মাধ্যমিক বিদ্যালয় কাপ ইউনিট</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-2">&copy; ২০২৬ উদয়ন মাধ্যমিক বিদ্যালয় স্কাউট গ্রুপ। সর্বস্বত্ব সংরক্ষিত।</p>
+            <p class="text-sm text-gray-400">Powered by Vercel Static Hosting</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
